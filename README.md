@@ -21,7 +21,7 @@
 [greenkeeper-badge]: https://badges.greenkeeper.io/9fv/node-class-or-instance-inspector.svg
 [greenkeeper-badge-url]: https://greenkeeper.io/
 [standardjs-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
-[standard-badge-url]: https://standardjs.com
+[standardjs-badge-url]: https://standardjs.com
 
 
 node-class-or-instance-inspector
