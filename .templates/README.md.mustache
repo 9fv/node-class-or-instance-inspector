@@ -31,7 +31,7 @@ Inspect methods of a class or an instance.
 
 **Warning !** Work in progress...
 
-[![JavaScript Style Guide][standardjs-badge]][standardjs-badge-url]
+[![JavaScript Style Guide]][standardjs-badge]][standardjs-badge-url]
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![NPM Downloads][npm-downloads-badge]][npm-downloads-url]
 [![TravisCI Build Status][travis-badge]][travis-badge-url]
