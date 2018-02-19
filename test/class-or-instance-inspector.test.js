@@ -7,7 +7,9 @@
  *
  */
 
-const should = require('should')
+/* eslint-env mocha */
+
+require('should')
 
 const {classOrInstanceInspector, ClassOrInstanceInspector} = require('../lib/index')
 
@@ -16,7 +18,6 @@ class ClassNoMethodTest {
 }
 
 class ClassTest {
-
   hello () {
   }
 
@@ -27,7 +28,6 @@ class ClassTest {
   foo () {
 
   }
-
 }
 
 describe('Class named {ClassOrInstanceInspector}', () => {
@@ -44,7 +44,7 @@ describe('Function named {classOrInstanceInspector}', () => {
 
 describe('Create an instance of {ClassOrInstanceInspector}', () => {
   it('without passing parameter should throw a {TypeError}', () => {
-    (() => { new ClassOrInstanceInspector() }).should.throw(TypeError)
+    (() => { ClassOrInstanceInspector.factory() }).should.throw(TypeError)
   })
 })
 
