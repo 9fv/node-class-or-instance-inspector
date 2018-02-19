@@ -1,0 +1,49 @@
+{
+  "name": "class-or-instance-inspector",
+  "version": "0.1.0-alpha1",
+  "description": "Inspect methods of a class or an instance.",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9fv/node-class-or-instance-inspector.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "class",
+    "instance",
+    "method",
+    "inspect",
+    "inspector"
+  ],
+  "author": "SAS 9 Février <contact@9fevrier.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9fv/node-class-or-instance-inspector/issues"
+  },
+  "homepage": "https://github.com/9fv/node-class-or-instance-inspector#readme",
+  "devDependencies": {
+    "current-git-branch": "^1.0.1",
+    "fs-then-native": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-mustache": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "jsdoc-to-markdown": "^4.0.1",
+    "mocha": "^5.0.1",
+    "require-dir": "^1.0.0",
+    "should": "^13.2.1",
+    "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
