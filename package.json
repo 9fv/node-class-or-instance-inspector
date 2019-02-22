@@ -46,7 +46,7 @@
     "fs-then-native": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-load-plugins": "^1.5.0",
-    "gulp-mustache": "^3.0.1",
+    "gulp-mustache": "^4.0.0",
     "gulp-rename": "^1.2.2",
     "jsdoc-to-markdown": "^4.0.1",
     "mocha": "^5.0.1",
